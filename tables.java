@@ -8,7 +8,7 @@ public class tables  {
         int length = scan.nextInt();
         int result=0;
         int i=0;
-        for(i=1;i<length+1;i++){
+        for(i=1;i<=length;i++){
             result = n*i;
             System.out.println(n + "*" + i + "=" + result);
         }
